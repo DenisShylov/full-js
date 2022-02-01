@@ -1,8 +1,9 @@
 const n = 100;
-let sum = 1;
+let sum = 0;
+let i = 1;
 
-while (sum <= n) {
-  sum += sum;
-  sum++;
+while (i <= n) {
+  sum = sum + i;
+  i++;
 }
 console.log('Result:', sum);
