@@ -1,13 +1,14 @@
-let m = 10;
+const m = 10;
 const n = 20;
-
+let m1 = m;
+let n1 = n;
 let result = 1;
 
 do {
-  if (m % 2 === 1) {
-    result *= m;
+  if (m1 % 2 === 1) {
+    result *= m1;
   }
-  m++;
-} while (m <= n);
+  m1++;
+} while (m1 <= n1);
 
 console.log(result);
