@@ -3,7 +3,7 @@ const end = 30;
 let result = 0;
 for (let i = 0; i <= end; i++) {
   if (i % 5 === 0) {
-    i;
+    result = i;
   }
   if (i % 2 === 0 && i % 4 !== 0) {
     result += i;
