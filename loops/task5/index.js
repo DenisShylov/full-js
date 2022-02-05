@@ -1,7 +1,7 @@
 const start = 1;
 const end = 30;
 let result = 0;
-for (let i = 0; i <= end; i++) {
+for (let i = start; i <= end; i++) {
   if (i % 5 === 0) {
     result = i;
   }
