@@ -1,0 +1,24 @@
+{
+  "name": "full",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisShylov/full-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisShylov/full-js/issues"
+  },
+  "homepage": "https://github.com/DenisShylov/full-js#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

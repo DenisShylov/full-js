@@ -10,3 +10,4 @@ for (let i = start; i <= end; i++) {
     mods %= 1234;
   }
 }
+console.log(false);
