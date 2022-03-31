@@ -1,4 +1,4 @@
-const reverseArray = (num) => {
+export const reverseArray = (num) => {
   if (!Array.isArray(num)) return null;
 
   const newArr = num.slice();
