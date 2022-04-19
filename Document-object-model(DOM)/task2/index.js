@@ -4,6 +4,8 @@ const getTitleElement = () => {
 };
 
 const getInputElement = () => {
-  const search1 = document.querySelector('');
+  const search1 = document.querySelector('input');
+  console.dir(search1);
 };
 getTitleElement();
+getInputElement();
