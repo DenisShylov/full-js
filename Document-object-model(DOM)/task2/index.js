@@ -1,9 +1,9 @@
-const getTitleElement = () => {
+export const getTitleElement = () => {
   const search = document.querySelector('.title');
   console.dir(search);
 };
 
-const getInputElement = () => {
+export const getInputElement = () => {
   const search1 = document.querySelector('input');
   console.dir(search1);
 };
