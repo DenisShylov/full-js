@@ -7,5 +7,3 @@ export const getInputElement = () => {
   const inputElem = document.querySelector('input');
   console.dir(inputElem);
 };
-getTitleElement();
-getInputElement();
