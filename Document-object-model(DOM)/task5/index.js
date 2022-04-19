@@ -1,4 +1,4 @@
-const setTitle = (text) => {
+export const setTitle = (text) => {
   const search = document.querySelector('.title');
   return (search.textContent = text);
 };
