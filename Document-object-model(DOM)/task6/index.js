@@ -1,7 +1,7 @@
 export const setButton = (buttonText) => {
   const elem = document.querySelector('body');
-  elem.textContent = buttonText;
-  elem.innerHTML = buttonText;
+  // elem.textContent = buttonText;
+  return (elem.innerHTML = buttonText);
 };
 
-// console.log(setButton('<button>button text</button>'));
+setButton('<button>button text</button>');
