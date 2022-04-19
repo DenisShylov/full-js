@@ -22,3 +22,18 @@ console.log(getRandomNumbers(20, -40.5, -30.8));
 console.log(getRandomNumbers(5, 1.4, 3.22)); // ==> [2, 2, 2, 3, 2]
 console.log(getRandomNumbers(5, 1.4, 3.22)); // ==> [3, 2, 2, 2, 2]
 console.log(getRandomNumbers(5, 1.4, 3.22)); // ==> [3, 3, 2, 3, 2]
+
+//Через цикл for
+
+const getRandom = (length, from, to) => {
+  if (to - from < 1) {
+    return null;
+  }
+  let arr = [];
+  let min = Math.ceil(from);
+  let max = Math.ceil(to);
+  for (let i = 0; i < length; i++) {
+    arr.push(Math.trunc(Math.random() * (max - min) + min));
+  }
+  return arr;
+};
