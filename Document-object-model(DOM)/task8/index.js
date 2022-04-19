@@ -7,4 +7,4 @@ const createButton = (buttonText) => {
 };
 
 // console.log(createButton('but'));
-export { clearList };
+export { createButton };
