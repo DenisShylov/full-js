@@ -3,4 +3,4 @@ const clearList = () => {
 };
 
 clearList();
-export { setButton };
+export { clearList };
