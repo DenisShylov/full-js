@@ -3,5 +3,5 @@ const setButton = (buttonText) => {
   // document.querySelector('body').textContent = buttonText;
 };
 
-setButton('<button>button text</button>');
+// setButton('<button>button text</button>');
 export { setButton };
