@@ -1,6 +1,6 @@
 'use strict';
 
-const tasks = [
+export const tasks = [
   { text: 'Buy milk', done: true },
   { text: 'Pick up Tom from airport', done: false },
   { text: 'Visit party', done: false },
