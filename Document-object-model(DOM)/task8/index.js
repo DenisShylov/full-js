@@ -12,9 +12,8 @@ const finishList = () => {
   elem6.textContent = 6;
   elem8.textContent = 8;
 
-  itemElem.prepend(elem1);
   itemElem.append(elem8);
-
+  itemElem.prepend(elem1);
   special.before(elem4);
   special.after(elem6);
 };
