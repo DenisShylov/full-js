@@ -1,10 +1,12 @@
-const createButton = (buttonText) => {
-  const body = document.querySelector('body');
-  const elem = document.createElement('button');
-  elem.textContent = buttonText;
+const finishForm = () => {
+  const form = document.querySelector('.login-form');
+  const input = document.querySelector('input');
+  input.setAttribute('type', 'password');
 
-  body.append(elem);
+  const create = document.createElement('input');
+  create.setAttribute('type', 'text');
+  create.setAttribute('name', 'login');
+  form.prepend(create);
 };
-
-// console.log(createButton('but'));
-export { createButton };
+// finishForm();
+export { finishForm };
