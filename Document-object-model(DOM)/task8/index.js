@@ -1,4 +1,4 @@
-const finishList = () => {
+export const finishList = () => {
   const itemElem = document.querySelector('.list');
   const special = document.querySelector('.special');
 
@@ -17,5 +17,4 @@ const finishList = () => {
   special.before(elem4);
   special.after(elem6);
 };
-finishList();
-export { finishList };
+// finishList();
