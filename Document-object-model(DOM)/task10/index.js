@@ -15,5 +15,5 @@ const manageClasses = () => {
     four.classList.add('another-class');
   }
 };
-manageClasses();
-// export { manageClasses };
+// manageClasses();
+export { manageClasses };
