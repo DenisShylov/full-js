@@ -47,13 +47,8 @@ const attachHandle = () => {
 };
 
 const clearHandle = () => {
-  divElem.removeEventListener('click', logGreenDiv);
-  pElem.removeEventListener('click', logGreenP);
-  spanElem.removeEventListener('click', logGreenSpan);
-
-  divElem.removeEventListener('click', logGreyDiv, true);
-  pElem.removeEventListener('click', logGreyP, true);
-  spanElem.removeEventListener('click', logGreySpan, true);
+  const eventList = document.querySelector('.events-list');
+  eventList.innerHTML = null;
 };
 
 remove.addEventListener('click', removeHandle);
