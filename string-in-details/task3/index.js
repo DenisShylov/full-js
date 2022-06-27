@@ -24,4 +24,4 @@ const splitString = (str, num = 10) => {
   return arr;
 };
 
-console.log(splitString('abcd123456 ', 4));
+console.log(splitString('abcd123456 ', 10));

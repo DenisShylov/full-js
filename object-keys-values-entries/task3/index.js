@@ -1,5 +1,6 @@
 function getKeys(obj) {
   Object.keys(obj).forEach((user) => console.log(user));
+  
 }
 
 // examples

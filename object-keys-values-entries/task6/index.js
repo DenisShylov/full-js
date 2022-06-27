@@ -4,7 +4,7 @@ const getPeople = (obj) => {
   }
   const arr = Object.values(obj);
   const newArr = arr
-    .reduce((acc, num) => acc.concat(num))
+    .reduce((acc, num) => acc.concat(num), [])
     .map((user) => user.name);
 
   return newArr;
